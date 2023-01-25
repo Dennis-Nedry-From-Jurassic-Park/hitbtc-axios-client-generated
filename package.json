@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "version": "",
+  "description": "OpenAPI client for ",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "axios",
+    "typescript",
+    "openapi-client",
+    "openapi-generator",
+    ""
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build",
+    "main.ts": "ts-node -r tsconfig-paths/register main.ts"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "typescript": "^3.6.4",
+    "@jest/types": "^29.3.1",
+    "tsconfig-paths": "^4.1.2"
+  }
+}
