@@ -19,7 +19,7 @@
     "main.ts": "ts-node -r tsconfig-paths/register main.ts"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
